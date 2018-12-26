@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -O2 -Wall -pedantic -std=c89
+CFLAGS= -O3 -Wall -pedantic -std=c89
 
 hello:	test.c
 	$(CC) $(CFLAGS) -o hello test.c
